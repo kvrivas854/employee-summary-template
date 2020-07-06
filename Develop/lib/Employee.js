@@ -1,22 +1,27 @@
 // TODO: Write code to define and export the Employee class
-const Employee = require("./employee")
+// const Employee = require("./employee.js")
 
 
 class Employee {
-    constructor(name, id, email)
+    constructor(name, id, email) {
+
     this.name = name;
     this.id = id;
     this.email = email;
 
-    getName (name){
+    }
+
+    getName (){
         return this.name;
     };
-    getId(id) {
+    getId() {
        return this.id;
     };
-    getEmail(email) {
+    getEmail() {
         return this.email;
     };
-
+    
+}
     module.exports = Employee
+
    
